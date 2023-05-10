@@ -77,7 +77,7 @@
                                 { ?>
                                     <tr>
                                       <td colspan="2">
-                                        <h3 class="p-3">No Course Found</h3>
+                                        <h3 class="p-3">No Students Taken an Exam</h3>
                                       </td>
                                     </tr>
                                 <?php }

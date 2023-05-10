@@ -185,7 +185,7 @@
                                 { ?>
                                     <tr>
                                       <td colspan="5">
-                                        <h3 class="p-3">No Exam Found</h3>
+                                        <h3 class="p-3">No Exams Found</h3>
                                       </td>
                                     </tr>
                                 <?php }

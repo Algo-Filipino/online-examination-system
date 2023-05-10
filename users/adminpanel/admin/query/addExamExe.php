@@ -24,13 +24,10 @@
  else
  {
     
-	$insExam = $conn->query("INSERT INTO exam_tbl(course_id,exam_title,exam_time_limit,ex_questionlimit_display,exam_description) VALUES('$courseSelected','$examTitle','$timeLimit','$examQuestDipLimit','$examDesc') ");
-	if($insExam)
-	{
+	$insExam = $conn->query("INSERT INTO exam_tbl(course_id,exam_title,exam_time_limit,exam_questionlimit_display,exam_description) VALUES('$courseSelected','$examTitle','$timeLimit','$examQuestDipLimit','$examDesc') ");
+	if($insExam) {
 		$res = array("res" => "success", "examTitle" => $examTitle);
-	}
-	else
-	{
+	} else {
 		$res = array("res" => "failed", "examTitle" => $examTitle);
 	}
 

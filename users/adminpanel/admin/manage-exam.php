@@ -182,7 +182,7 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
                                                 </td>
                                                 <td class="text-center">
                                                 <a rel="facebox" href="facebox_modal/updateQuestion.php?id=<?php echo $selQuestionRow['question_id']; ?>" class="btn btn-sm btn-primary">Update</a>
-                                                <button type="button" id="deleteQuestion" data-id='<?php echo $selQuestionRow['question_id']; ?>'  class="btn btn-danger btn-sm">Delete</button>
+                                                <button type="button" id="deleteQuestion" data-id='<?php echo $selQuestionRow['question_id']; ?>' class="btn btn-danger btn-sm">Delete</button>
                                                 </td>
                                               </tr>
                                             <?php }
@@ -191,7 +191,7 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
                                           { ?>
                                               <tr>
                                                 <td colspan="2">
-                                                  <h3 class="p-3">No Course Found</h3>
+                                                  <h3 class="p-3">No Exams Found</h3>
                                                 </td>
                                               </tr>
                                           <?php }
@@ -202,7 +202,7 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
                                 <?php }
                                   else
                                   { ?>
-                                      <h4 class="text-primary">No question found...</h4>
+                                      <h4 class="text-primary">No questions found...</h4>
                                     <?php
                                   }
                                 ?>

@@ -60,7 +60,7 @@
                                 { ?>
                                     <tr>
                                       <td colspan="2">
-                                        <h3 class="p-3">No Course Found</h3>
+                                        <h3 class="p-3">No Students Found</h3>
                                       </td>
                                     </tr>
                                 <?php }

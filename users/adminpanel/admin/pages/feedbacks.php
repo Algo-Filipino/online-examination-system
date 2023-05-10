@@ -39,7 +39,7 @@
                                 { ?>
                                     <tr>
                                       <td colspan="5">
-                                        <h3 class="p-3">No Feedback found</h3>
+                                        <h3 class="p-3">No Feedbacks found</h3>
                                       </td>
                                     </tr>
                                 <?php }

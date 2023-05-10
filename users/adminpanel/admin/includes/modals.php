@@ -103,8 +103,8 @@
           </div>
 
           <div class="form-group">
-            <label>Question Limit to Display</label>
-            <input type="number" name="examQuestDipLimit" id="" class="form-control" placeholder="Input question limit to display">
+            <label>No. of Question/s</label>
+            <input type="number" name="examQuestDipLimit" id="" class="form-control" placeholder="Input number of questions in exam">
           </div>
 
           <div class="form-group">
@@ -223,7 +223,7 @@
           </div>
 
           <fieldset>
-            <legend>Input word for choice's</legend>
+            <legend>Input word for choices</legend>
             <div class="form-group">
                 <label>Choice A</label>
                 <input type="" name="choice_A" id="choice_A" class="form-control" placeholder="Input choice A" autocomplete="off">
