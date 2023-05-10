@@ -66,10 +66,10 @@
                                              {
                                                 echo "background-color: yellow;";
                                              } 
-                                             else if($ans >= 80){
+                                             else if($ans >= 75){
                                                 echo "background-color: green;color:white";
                                              }
-                                             else if($ans >= 75){
+                                             else if($ans >= 50){
                                                 echo "background-color: blue;color:white";
                                              }
                                              else
@@ -82,7 +82,7 @@
                                         >
                                         <td>
 
-                                          <?php echo $selExmneRow['exmne_fullname']; ?></td>
+                                          <?php echo $selExmneRow['student_fullname']; ?></td>
                                         
                                         <td >
                                         <?php 

@@ -90,7 +90,7 @@ if(!isset($_SESSION['admin']['adminlogin']) == true) header("location:index.php"
                             </div>
 
                             <div class="form-group">
-                              <label>Display limit</label>
+                              <label>No. of Question/s</label>
                               <input type="number" name="examQuestDipLimit" class="form-control" value="<?php echo $selExamRow['exam_questionlimit_display']; ?>"> 
                             </div>
 

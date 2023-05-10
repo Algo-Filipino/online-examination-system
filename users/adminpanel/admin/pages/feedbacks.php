@@ -16,7 +16,7 @@
                         <table class="align-middle mb-0 table table-borderless table-striped table-hover" id="tableList">
                             <thead>
                             <tr>
-                                <th class="text-left pl-4" width="20%">Examinee</th>
+                                <th class="text-left pl-4" width="20%">Student Name</th>
                                 <th class="text-left ">Feedbacks</th>
                                 <th class="text-center" width="15%">Date</th>
                             </tr>

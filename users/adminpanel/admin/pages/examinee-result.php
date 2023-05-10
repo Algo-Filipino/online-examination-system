@@ -17,9 +17,9 @@
                         <table class="align-middle mb-0 table table-borderless table-striped table-hover" id="tableList">
                             <thead>
                             <tr>
-                                <th>Fullname</th>
+                                <th>Student Name</th>
                                 <th>Exam Name</th>
-                                <th>Scores</th>
+                                <th>Score</th>
                                 <th>Ratings</th>
                                 <!-- <th width="10%"></th> -->
                             </tr>

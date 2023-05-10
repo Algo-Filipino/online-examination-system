@@ -11,7 +11,7 @@
  		$res = array("res" => "limit");
 	} else {
 		$date = date("F d, Y");
-		$insFedd = $conn->query("INSERT INTO feedbacks_tbl(exmne_id,fb_exmne_as,fb_feedbacks,fb_date) VALUES('$exmneSess','$asMe','$myFeedbacks','$date') ");
+		$insFedd = $conn->query("INSERT INTO feedbacks_tbl(student_id,fb_student_as,fb_feedbacks,fb_date) VALUES('$exmneSess','$asMe','$myFeedbacks','$date') ");
 
 		if($insFedd) {
 			$res = array("res" => "success");

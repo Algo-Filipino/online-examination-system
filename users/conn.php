@@ -1,16 +1,12 @@
 <?php 
+  $host = "localhost";
+  $user = "root";
+  $pass = "";
+  $db   = "evalutest";
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "evalutest";
-$conn = null;
-
-try {
-  $conn = new PDO("mysql:host={$host};dbname={$db};",$user,$pass);
-} catch (Exception $e) {
-  
-}
-
-
- ?>
+  try {
+    $conn = new PDO("mysql:host={$host};dbname={$db};",$user,$pass);
+  } catch (Exception $e) {
+    
+  }
+?>
