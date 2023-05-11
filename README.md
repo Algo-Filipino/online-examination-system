@@ -14,7 +14,7 @@
 
 > WireFrame (Low Fidelity): *[EvaluTest Low Fidelity Wireframe](https://www.figma.com/file/rZtAktJIOZy6xCmXXaxfJi/EvaluTest-Low-Fidelity-Wireframe?node-id=5%3A157&t=dgnH1gZjuwAEjkhG-1)*  
 
-> Website Link: *[EvaluTest Official Website](http://evalutest.infinityfreeapp.com/)*  
+> Website Link: *[EvaluTest Official Website](https://evalutest.000webhostapp.com//)*  
 
 [![EvaluTest Login Page](/assets/images/login.png)](http://evalutest.infinityfreeapp.com/)  
 
